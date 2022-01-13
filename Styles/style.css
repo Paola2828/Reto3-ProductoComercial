@@ -1,0 +1,57 @@
+#header-img{
+    width: 200px;
+}
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    width: 100%;
+}
+.incienso-page{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#form{
+    text-align: center;
+    margin-bottom: 25px;
+    display: flex;
+
+
+}
+
+.video-page{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.video{
+
+    text-align: center;
+}
+
+.incienso-s{
+    height: 600px;
+    background-image: url(https://www.almacuerpoymente.com/wp-content/uploads/2018/03/incienso_2.jpg);
+
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        display: none;
+      
+    }
+  }
